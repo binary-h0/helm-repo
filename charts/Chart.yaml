@@ -1,0 +1,11 @@
+# apiVersion: v1
+# version: "1"
+# name: foo
+# description: A Helm dependency chart for Kubernetes
+# dependencies:
+#   - name: nginx
+#     version: "1.2.3"
+#     repository: "https://example.com/charts"
+#   - name: memcached
+#     version: "3.2.1"
+#     repository: "https://another.example.com/charts"
