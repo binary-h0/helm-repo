@@ -458,10 +458,10 @@ controller:
   # ref: https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/
   priorityClassName:
 
-  podAnnotations: # {}
-    - "sidecar.istio.io/rewriteAppHTTPProbers: false"
+  podAnnotations: {}
+  # - "sidecar.istio.io/rewriteAppHTTPProbers: false"
 
-    # - sidecar.istio.io/rewriteAppHTTPProbers: "false"
+  # - sidecar.istio.io/rewriteAppHTTPProbers: "false"
   # Add StatefulSet annotations
   statefulSetAnnotations:
     - "sidecar.istio.io/rewriteAppHTTPProbers: false"
