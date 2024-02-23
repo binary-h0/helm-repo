@@ -459,7 +459,9 @@ controller:
   priorityClassName:
 
   podAnnotations: # {}
-    - sidecar.istio.io/rewriteAppHTTPProbers: "false"
+    - "sidecar.istio.io/rewriteAppHTTPProbers: false"
+
+    # - sidecar.istio.io/rewriteAppHTTPProbers: "false"
   # Add StatefulSet annotations
   statefulSetAnnotations:
     - "sidecar.istio.io/rewriteAppHTTPProbers: false"
