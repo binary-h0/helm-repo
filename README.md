@@ -3,4 +3,4 @@
 
 image: test-project
 
-tag: v1.0.1
+tag: v1.0.2
